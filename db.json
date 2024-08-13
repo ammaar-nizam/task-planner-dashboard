@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    {
+      "name": "Clean room changed",
+      "description": "Vacuum, dust, and organize the room. Don't forget to clean under the furniture and change bed linens.",
+      "dueDate": "2024-09-07",
+      "id": "1"
+    },
+    {
+      "name": "Buy a toothpaste",
+      "description": "Get a new tube of toothpaste from the store. Look for any discounts if available.",
+      "dueDate": "2024-08-15",
+      "id": "2"
+    },
+    {
+      "name": "Read Harry Potter",
+      "description": "Read the next chapter of 'Harry Potter' and make notes of key points.",
+      "dueDate": "2024-08-14",
+      "id": "3"
+    },
+    {
+      "name": "Buy a phone cover",
+      "description": "Purchase a phone cover that fits your model and offers good protection.",
+      "dueDate": "2024-08-16",
+      "id": "4"
+    },
+    {
+      "name": "Go to gym",
+      "description": "Complete your workout including cardio and strength training. Stay hydrated.",
+      "dueDate": "2024-08-17",
+      "id": "5"
+    },
+    {
+      "name": "Task 6 Changed",
+      "description": "Review and update the task details as needed",
+      "dueDate": "2024-08-14",
+      "id": "6"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+.btn {
+  background-color: #000000; /* Black background color */
+  color: white; /* White text */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Padding inside the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size */
+  display: inline-flex; /* Use inline-flex for proper alignment of children */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  margin: 5px 0; /* Space between buttons */
+  width: 160px; /* Fixed width for all buttons */
+  text-align: center; /* Center text inside the button */
+  margin-left: 18px;
+}
+
+/* Text styling inside the button */
+.btn-text {
+  flex-grow: 1; /* Allow the text to take up available space */
+  text-align: left; /* Align text to the left */
+}
+
+/* Icon styling inside the button */
+.btn-icon {
+  margin-left: 10px; /* Space between text and icon */
+  width: 20px; /* Size of the icon */
+  height: 20px; /* Size of the icon */
+}

@@ -1,0 +1,47 @@
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.search-bar {
+  padding: 10px;
+  padding-right: 40px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  width: 100%; /* Start by making the search bar take up full width */
+  max-width: 250px; /* Set a maximum width for larger screens */
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  color: #555;
+  pointer-events: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .search-bar {
+    max-width: 200px; /* Adjust the max width on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .search-bar {
+    max-width: 150px; /* Adjust the max width on very small screens */
+    font-size: 14px; /* Reduce font size on very small screens */
+  }
+
+  .search-icon {
+    width: 16px; /* Adjust icon size on small screens */
+    height: 16px;
+  }
+}

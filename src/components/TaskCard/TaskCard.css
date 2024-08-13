@@ -1,0 +1,28 @@
+/* The existing card styles can remain the same */
+.card-container {
+  width: 100%; /* Let the grid manage the width */
+  border-radius: 1rem;
+  box-shadow: 2px 0px 5px 2px #999;
+  display: grid;
+  margin: 0.5rem;
+  background-color: white;
+  height: fit-content;
+}
+
+.card-task,
+.card-description,
+.card-due-date {
+  margin: 0.5rem 5%;
+}
+
+.card-btn {
+  text-align: center;
+  width: 81%;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  background-color: #000000;
+  color: white;
+  text-decoration: none;
+  margin: 0.5rem 0.5rem;
+}
+
