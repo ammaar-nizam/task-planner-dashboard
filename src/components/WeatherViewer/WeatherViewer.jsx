@@ -8,8 +8,8 @@ const WeatherViewer = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  let api_key = "57eba12b0cd4cb4ece201488290c36aa";
-  const city = "new york";
+  const api_key = process.env.REACT_APP_API_KEY;
+  const city = "colombo";
 
   useEffect(() => {
     const getWeatherAndTemperature = async () => {
